@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="RedStore_Img/images/logo.png" width="125px">
+        </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Index.html">Home</a></li>    
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="product-details.html">Favorites</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="RedStore_Img/images/cart.png" width="20px" height="20px">
+            <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle">
+    </div>
+</div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="RedStore_Img/images/gallery-1.jpg">
+                <h4>Red Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-2.jpg">
+                <h4>HRX Black Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$42.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-3.jpg">
+                <h4>White Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-4.jpg">
+                <h4>Gold Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="RedStore_Img/images/Product-13.jpg">
+                <h4>Gucci White Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-14.jpg">
+                <h4>Off-White Black Hat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$42.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-15.jpg">
+                <h4>Men's Off-White Necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-16.jpg">
+                <h4>Gucci Leather Wallet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+        </div>
+        <!--Redirect to a different page-->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-5.jpg">
+                <h4>Grey boots</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$75.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-6.jpg">
+                <h4>White and Grey strip Puma T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-7.jpg">
+                <h4>HRX socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="RedStore_Img/images/product-8.jpg">
+                <h4>Black Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="RedStore_Img/images/product-9.jpg">
+                    <h4>Grey Roadster Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="RedStore_Img/images/product-10.jpg">
+                    <h4>HRX Black Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="RedStore_Img/images/product-11.jpg">
+                    <h4>Comfortable Grey Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="RedStore_Img/images/product-12.jpg">
+                    <h4>Black Nike Joggers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$35.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+<!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                 <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="RedStore_Img/images/play-store.png">
+                        <img src="RedStore_Img/images/app-store.png">
+                    </div>
+                 </div>
+                 <div class="footer-col-2">
+                    <img src="RedStore_Img/images/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and 
+                    Benefits of Sports Accessible to the Many.</p>
+                 </div>
+                 <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                 </div>
+                 <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTubes</li>
+                    </ul>
+                 </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 Lateef - Assignment Website</p>
+        </div>
+    </div>
+
+<!--JS for toggle menu-->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }      
+        }
+    </script>
+</body>
+</html>
